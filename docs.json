@@ -11,13 +11,13 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "User Guides",
+        "tab": "Guides",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "overview",
-              "how-to-get-started",
+              "introduction",
+              "quickstart",
               "development"
             ]
           },
