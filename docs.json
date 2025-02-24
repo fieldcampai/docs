@@ -34,9 +34,7 @@
           "group": "CRM",
           "pages": [
             "crm/client-commands",
-            "crm/managing-clients"
-          ],
-          "subgroups": [
+            "crm/managing-clients",
             {
               "group": "Client Table",
               "pages": [
