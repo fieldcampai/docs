@@ -1,9 +1,9 @@
 {
   "$schema": "https://docs.fieldcamp.ai/docs.json",
-  "theme": "willow",
+  "theme": "quill",
   "name": "FieldCamp Help Centre",
   "colors": {
-    "primary": "#0213f5",
+    "primary": "#0a0a0a",
     "light": "#07C983",
     "dark": "#15803D"
   },
