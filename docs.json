@@ -3,58 +3,114 @@
   "theme": "willow",
   "name": "FieldCamp Help Centre",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#0213f5",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/logo/fieldcamp-favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "getting-started/accessing-fieldcamp",
-              "getting-started/how-to-get-started",
-              "getting-started/overview"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+"navigation": {
+  "tabs": [
+    {
+      "tab": "Guides",
+      "groups": [
         {
-          "anchor": "FieldCamp App",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "group": "Get Started",
+          "pages": [
+            "getting-started/overview",
+            "getting-started/accessing-fieldcamp",
+            "getting-started/how-to-get-started"
+          ]
         },
         {
-          "anchor": "Discord Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "group": "Command Centre",
+          "pages": [
+            "command-centre/automating-repetitive-tasks",
+            "command-centre/email-canvas",
+            "command-centre/task-management",
+            "command-centre/adding-files"
+          ]
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "group": "CRM",
+          "pages": [
+            "crm/client-commands",
+            "crm/managing-clients"
+          ],
+          "subgroups": [
+            {
+              "group": "Client Table",
+              "pages": [
+                "crm/client-table/custom-properties",
+                "crm/client-table/import",
+                "crm/client-table/export",
+                "crm/client-table/organize"
+              ]
+            },
+            {
+              "group": "Client Card",
+              "pages": [
+                "crm/client-card/client-details"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Team Members",
+          "pages": [
+            "team-members/how-to-add"
+          ]
+        },
+        {
+          "group": "Products and Services",
+          "pages": [
+            "products/managing-through-command-centre",
+            "products/product-table"
+          ]
+        },
+        {
+          "group": "Job Management",
+          "pages": [
+            "jobs/adding-jobs",
+            "jobs/updating-job",
+            "jobs/job-logs"
+          ]
+        },
+        {
+          "group": "Integrations",
+          "pages": [
+            "integrations/gmail",
+            "integrations/google-calendar"
+          ]
+        },
+        {
+          "group": "Email Management",
+          "pages": [
+            "email-inbox"
+          ]
         }
       ]
     }
-  },
+  ],
+  "global": {
+    "anchors": [
+      {
+        "anchor": "FieldCamp App",
+        "href": "https://app.fieldcamp.ai",
+        "icon": "grid-horizontal"
+      },
+      {
+        "anchor": "Discord Community",
+        "href": "https://discord.gg/CDaesPSNhf",
+        "icon": "discord"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://fieldcamp.ai/blog/",
+        "icon": "newspaper"
+      },
+    ]
+  }
+},
   "logo": {
     "light": "/logo/fieldcamp_black_logo.png",
     "dark": "/logo/fieldcamp_white_logo.png"
