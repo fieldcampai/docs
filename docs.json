@@ -1,23 +1,23 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "FieldCamp Help Site",
+  "theme": "willow",
+  "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/fieldcamp-favicon.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "User Guides",
+        "tab": "Guides1",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Get Started1",
             "pages": [
-              "overview",
-              "how-to-get-started",
+              "introduction",
+              "quickstart",
               "development"
             ]
           },
@@ -33,36 +33,17 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          }
-        ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "FieldCamp App",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "anchor": "Discord Community",
           "href": "https://mintlify.com/community",
           "icon": "slack"
         },
@@ -75,27 +56,30 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/fieldcamp_black_logo.png",
+    "dark": "/logo/fieldcamp_white_logo.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@fieldcamp.ai"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.fieldcamp.ai"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/fieldcamp/",
+      "instagram": "https://www.instagram.com/fieldcamp.ai/",
+      "x": "https://x.com/FieldCamp_ai",
+      "facebook": "https://www.facebook.com/getfieldcamp",
+      "youtube": "https://www.youtube.com/@fieldcamp_ai"
+      
     }
   }
 }
