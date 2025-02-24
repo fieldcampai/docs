@@ -16,9 +16,9 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "getting-started/accessing-fieldcamp",
+              "getting-started/how-to-get-started",
+              "getting-started/overview"
             ]
           },
           {
