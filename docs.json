@@ -1,11 +1,11 @@
 {
   "$schema": "https://docs.fieldcamp.ai/docs.json",
-  "theme": "quill",
+  "theme": "mint",
   "name": "FieldCamp Help Centre",
   "colors": {
     "primary": "#0a0a0a",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#0a0a0a",
+    "dark": "#f7faf8"
   },
   "favicon": "/logo/fieldcamp-favicon.png",
 "navigation": {
@@ -34,7 +34,9 @@
           "group": "CRM",
           "pages": [
             "crm/client-commands",
-            "crm/managing-clients",
+            "crm/managing-clients"
+          ],
+          "subgroups": [
             {
               "group": "Client Table",
               "pages": [
