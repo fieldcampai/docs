@@ -110,8 +110,8 @@
   }
 },
   "logo": {
-    "light": "/logo/fieldcamp_black_logo.png",
-    "dark": "/logo/fieldcamp_white_logo.png"
+    "light": "/logo/fieldcamp_black_logo.svg",
+    "dark": "/logo/fieldcamp_white_logo.svg"
   },
   "navbar": {
     "links": [
