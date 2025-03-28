@@ -35,7 +35,7 @@
           "pages": [
             "crm/client-commands",
             "crm/managing-clients",
-            "crm/pipeline-management"
+            "crm/pipeline-management",
             {
               "group": "Client Table",
               "pages": [
