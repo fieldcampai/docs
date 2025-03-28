@@ -35,14 +35,14 @@
           "pages": [
             "crm/client-commands",
             "crm/managing-clients",
+            "crm/pipeline-management",
             {
               "group": "Client Table",
               "pages": [
                 "crm/client-table/custom-properties",
                 "crm/client-table/import",
                 "crm/client-table/export",
-                "crm/client-table/organize",
-                "crm/pipeline-management"
+                "crm/client-table/organize"
               ]
             },
             {
