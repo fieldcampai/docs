@@ -41,7 +41,8 @@
                 "crm/client-table/custom-properties",
                 "crm/client-table/import",
                 "crm/client-table/export",
-                "crm/client-table/organize"
+                "crm/client-table/organize",
+                "crm/pipeline-management"
               ]
             },
             {
