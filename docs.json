@@ -81,6 +81,12 @@
           ]
         },
         {
+          "group": "Inventory Management",
+          "pages": [
+            "inventory/inventory-management"
+          ]
+        },
+        {
           "group": "Email Management",
           "pages": [
             "email-inbox"
