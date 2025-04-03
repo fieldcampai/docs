@@ -71,6 +71,8 @@
           "pages": [
             "jobs/adding-jobs",
             "jobs/updating-job",
+            "jobs/route-optimization",
+            "jobs/dispatch-calendar",
             "jobs/job-logs"
           ]
         },
