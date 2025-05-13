@@ -73,7 +73,9 @@
             "jobs/updating-job",
             "jobs/route-optimization",
             "jobs/dispatch-calendar",
-            "jobs/job-logs"
+            "jobs/dispatch-calendar",
+            "jobs/job-logs",
+            "jobs/Job-forms"
           ]
         },
         {
@@ -86,13 +88,34 @@
         {
           "group": "Inventory Management",
           "pages": [
-            "inventory/inventory-management"
+            "inventory/inventory-management",
+            "inventory/Vendor-management-and-purchase-orders"
           ]
         },
         {
           "group": "Email Management",
           "pages": [
             "email-inbox"
+          ]
+        },
+         {
+          "group": "Analytics",
+          "pages": [
+            "analytics/analytics"
+          ]
+        },
+        {
+          "group": "Workflow-Builder",
+          "pages": [
+            "Workflow-Builder/Workflow-builder"
+          ]
+        },
+        {
+          "group": "Others",
+          "pages": [
+            "others/Add-ons",
+            "others/How-to-change-your-password",
+            "others/My-views"
           ]
         }
       ]
