@@ -113,9 +113,9 @@
         {
           "group": "Others",
           "pages": [
-            "others/Add-ons",
-            "others/How-to-change-your-password",
-            "others/My-views"
+            "others/add-ons",
+            "others/how-to-change-your-password",
+            "others/my-views"
           ]
         }
       ]
