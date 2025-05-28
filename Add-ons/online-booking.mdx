@@ -1,0 +1,141 @@
+---
+title: "Setting Up Online Booking in FieldCamp"
+description: "Choose the Perfect Customer Journey for Your Booking Widget"
+---
+
+FieldCamp’s online booking widget empowers your business to capture leads and schedule jobs directly from your website—24/7. With flexible customer journey options, you can tailor the booking experience to match your workflow and your clients’ needs. Whether you want to start with a conversation, let customers browse services, collect information upfront, or offer instant scheduling, FieldCamp makes it easy.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZkLSZqbe-O0?si=aEhL5KALmViT0sNr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+
+## **Why Use the Online Booking Widget?**
+
+- Seamless Customer Experience: Let visitors book appointments or request services instantly, 24/7.
+- Customizable Branding: Match the widget’s look and feel to your business.
+- Easy Integration: Add the widget to any website with simple copy-paste code.
+- Automated Engagement: Optionally auto-open the widget to engage visitors as soon as they arrive.
+
+## **Configuring Your Chat Widget Settings**
+
+Navigate to the Online Booking section in FieldCamp to access your widget settings.
+
+### **1. Basic Settings**
+
+![Ob5 Pn](/images/ob5.png)
+
+- **Widget Title:**\
+  Enter a descriptive name for your widget. This helps you identify different widgets if you use more than one.
+- **Welcome Message:**\
+  Craft a friendly message that greets your website visitors when the widget opens.
+- **Widget Color:**\
+  Choose a color that matches your brand. You can select from the color picker or enter a hex code.
+- **Widget Position:**\
+  Decide where the widget appears on your website. Options include “Bottom Right,” making it easily accessible for users.
+- **Auto-open after 5 seconds:**\
+  Enable this toggle if you want the widget to automatically open a few seconds after a visitor lands on your site, increasing engagement.
+
+**Save:**\
+Click the Save button to apply your settings.
+
+## **Setting Up the Customer Journey**
+
+FieldCamp allows you to customize the Customer Flow—the path your customers follow when booking online.
+
+Navigate to the Customer Flow tab to choose the most suitable journey for your business:
+
+### **Customer Journey Modes**
+
+1. **Conversation First**
+
+   ![Ob1 Pn](/images/ob1.png)
+   - Start with a natural chat to guide the customer through their needs.
+   - Ideal for personalized service or when you want to gather more context before offering options.
+   - _In this mode, the chat will begin by understanding customer needs through conversation._
+2. **Product Search**
+
+   ![Ob2 Pn](/images/ob2.png)
+   - Begin by showing available products or services.
+   - Customers see a list of services and can select what they need.
+   - Product Search Settings:
+     - Customize the search prompt (e.g., “What service are you looking for?”)
+     - Optionally show pricing and/or availability information.
+   - _In this mode, customers first see a list of available services to choose from._
+3. **Form First**
+
+   ![OB3 Pn](/images/OB3.png)
+   - Start by collecting customer information via a form.
+   - Useful when you need essential details upfront before proceeding with booking or recommendations.
+   - _In this mode, customers must fill out a form before moving forward._
+4. **Direct Booking**
+
+   ![OB4 Pn](/images/OB4.png)
+   - Jump straight to scheduling and availability.
+   - Customers immediately see available time slots to book a service.
+   - Booking Settings:
+     - Customize the schedule prompt (e.g., “When would you like to schedule your service?”)
+     - Toggle options to show service time estimates, require customer address, and collect payment method.
+   - _In this mode, customers can book a time slot right away, streamlining the process for repeat or ready-to-book clients._
+
+## **Integrating the Chat Widget on Your Website**
+
+After configuring your widget, you’ll need to add it to your website. FieldCamp provides the necessary code snippets for easy integration.
+
+### **1. Add CSS to Your Website**
+
+Copy the provided CSS link and paste it into the \<head\> section of your website’s HTML:
+
+```
+<link rel="stylesheet" href="https://chat-platform.fieldcamp.ai/widget.css">
+```
+
+### 2. **Add Scripts Before \</body\>**
+
+Scroll to the bottom of your HTML file, just before the closing \</body\> tag, and add the provided script configuration:
+
+```
+<script>
+        window.copilotConfig = {
+  "autoOpen": false,
+  "zIndex": 99999,
+  "autoInit": false,
+  "title": "",
+  "primaryColor": "#3498db",
+  "position": "bottom-right",
+  "welcomeMessage": "",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTM5ODc1ZDhhN2U0MWY5NmU1ZjI1YSIsImVtYWlsIjoiZGFuZWlsc21pdGg2N0BnbWFpbC5jb20iLCJyb2xlIjp7Im5hbWUiOiJzdXBlckFkbWluIiwicGVybWlzc2lvbnMiOlt7Im5hbWUiOiJhbGxfbW9kdWxlcyIsInBlcm1pc3Npb25zIjpbImFsbF9tb2R1bGVzIl19XSwiaWQiOiI2N2NhOGM5NDkwMjkwYjg1ZWZjNGUzZjIifSwibmFtZSI6IkRhbmVpbCIsInBhcmVudElkIjpudWxsLCJpYXQiOjE3NDcxMTI5ODN9.TJKAo7VF458JTyqZWAuzNnwG2dbH4D3mzA-zJqDE12w"
+};
+    </script>
+    
+    <!-- Smart Home Assistant Widget -->
+    <script src="https://chat-platform.fieldcamp.ai/widget.js" type="text/javascript"></script>
+    
+    <!-- Force initialization -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log("DOM loaded, checking for widget");
+    
+        setTimeout(function() {
+        if (window.initCoPilotWidget) {
+            console.log("Initializing widget manually");
+            const container = window.initCoPilotWidget({
+            autoOpen: false
+            });
+            console.log("Widget container:", container);
+        } else {
+            console.error("Widget script failed to load or initialize");
+        }
+        }, 1000);
+    });
+    </script>
+```
+
+Replace "YOUR_UNIQUE_TOKEN_HERE" with the token provided in your FieldCamp dashboard.
+
+### **Best Practices**
+
+- Personalize the Welcome Message: Make your greeting inviting and informative to encourage bookings.
+- Test the Widget: After adding the code, visit your website to ensure the widget appears and functions as expected.
+- Monitor Engagement: Use FieldCamp analytics to track how many bookings come through the widget and optimize your messaging accordingly.
+- Keep Branding Consistent: Match widget color and style to your website for a seamless customer experience.
+- Choose the Right Flow: Select the customer journey that best fits your business and audience for higher conversion rates.
+
+With FieldCamp’s online booking widget, you’re in control of the customer experience from the very first click. Select the journey that best fits your business model, customize the flow, and make it easier than ever for clients to book your services. Start capturing more leads and turning website visitors into loyal customers—automatically.
