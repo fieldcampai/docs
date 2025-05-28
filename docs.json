@@ -8,184 +8,193 @@
     "dark": "#1C1C1C"
   },
   "favicon": "/logo/fieldcamp-favicon.png",
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Guides",
-      "groups": [
+
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "getting-started/overview",
+              "getting-started/accessing-fieldcamp",
+              "getting-started/how-to-get-started"
+            ]
+          },
+          {
+            "group": "Command Centre",
+            "pages": [
+              "command-centre/automating-repetitive-tasks",
+              "command-centre/email-canvas",
+              "command-centre/task-management",
+              "command-centre/adding-files"
+            ]
+          },
+          {
+            "group": "CRM",
+            "pages": [
+              "crm/client-commands",
+              "crm/managing-clients",
+              "crm/pipeline-management",
+              {
+                "group": "Client Table",
+                "pages": [
+                  "crm/client-table/custom-properties",
+                  "crm/client-table/import",
+                  "crm/client-table/export",
+                  "crm/client-table/organize"
+                ]
+              },
+              {
+                "group": "Client Card",
+                "pages": [
+                  "crm/client-card/client-details"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Team Members",
+            "pages": [
+              "team-member/how-to-add"
+            ]
+          },
+          {
+            "group": "Products and Services",
+            "pages": [
+              "products/managing-through-command-centre",
+              "products/product-table"
+            ]
+          },
+          {
+            "group": "Job Management",
+            "pages": [
+              "jobs/adding-jobs",
+              "jobs/updating-job",
+              "jobs/route-optimization",
+              "jobs/dispatch-calendar",
+              "jobs/job-logs"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/gmail",
+              "integrations/google-calendar"
+            ]
+          },
+          {
+            "group": "Inventory Management",
+            "pages": [
+              "inventory/inventory-management",
+              "inventory/vendor-management-and-purchase-orders"
+            ]
+          },
+          {
+            "group": "Email Management",
+            "pages": [
+              "email/email-inbox"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "pages": [
+              "analytics/analytics"
+            ]
+          },
+          {
+            "group": "Workflow Builder",
+            "pages": [
+              "workflow-builder/workflow-builder"
+            ]
+          },
+          {
+            "group": "Grow",
+            "pages": [
+              {
+                "group": "Estimates",
+                "pages": [
+                  "grow/estimates/creating-and-managing-estimates",
+                  "grow/estimates/add-contracts-terms-attachments-notes",
+                  "grow/estimates/add-and-manage-signatures",
+                  "grow/estimates/previewing-editing-managing",
+                  "grow/estimates/sending-tracking-and-follow-ups",
+                  "grow/estimates/customisable-views",
+                  "grow/estimates/importance"
+                ]
+              },
+              {
+                "group": "Invoices",
+                "pages": [
+                  "grow/invoices/creating-and-managing-invoices",
+                  "grow/invoices/add-contracts-terms-attachments-notes",
+                  "grow/invoices/add-and-manage-signatures",
+                  "grow/invoices/managing-and-sending-invoices",
+                  "grow/invoices/customisable-views",
+                  "grow/invoices/importance"
+                ]
+              },
+              {
+                "group": "Payments",
+                "pages": [
+                  "grow/payments/stripe-integration"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Tax & Contracts",
+            "pages": [
+              "tax-and-contracts/tax",
+              "tax-and-contracts/contracts"
+            ]
+          },
+          {
+            "group": "Add-ons",
+            "pages": [
+              "add-ons/overview",
+              "add-ons/job-forms",
+              "add-ons/online-booking",
+              "add-ons/service-areas"
+            ]
+          },
+          {
+            "group": "Others",
+            "pages": [
+              "others/how-to-change-your-password",
+              "others/my-views"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
         {
-          "group": "Get Started",
-          "pages": [
-            "getting-started/overview",
-            "getting-started/accessing-fieldcamp",
-            "getting-started/how-to-get-started"
-          ]
+          "anchor": "FieldCamp App",
+          "href": "https://app.fieldcamp.ai",
+          "icon": "grid-horizontal"
         },
         {
-          "group": "Command Centre",
-          "pages": [
-            "command-centre/automating-repetitive-tasks",
-            "command-centre/email-canvas",
-            "command-centre/task-management",
-            "command-centre/adding-files"
-          ]
+          "anchor": "Discord Community",
+          "href": "https://discord.gg/CDaesPSNhf",
+          "icon": "discord"
         },
         {
-          "group": "CRM",
-          "pages": [
-            "crm/client-commands",
-            "crm/managing-clients",
-            "crm/pipeline-managment",
-            {
-              "group": "Client Table",
-              "pages": [
-                "crm/client-table/custom-properties",
-                "crm/client-table/import",
-                "crm/client-table/export",
-                "crm/client-table/organize"
-              ]
-            },
-            {
-              "group": "Client Card",
-              "pages": [
-                "crm/client-card/client-details"
-              ]
-            }
-          ]
-        },
-        {
-          "group": "Team Members",
-          "pages": [
-            "team-member/how-to-add"
-          ]
-        },
-        {
-          "group": "Products and Services",
-          "pages": [
-            "products/managing-through-command-centre",
-            "products/product-table"
-          ]
-        },
-        {
-          "group": "Job Management",
-          "pages": [
-            "jobs/adding-jobs",
-            "jobs/updating-job",
-            "jobs/route-optimization",
-            "jobs/dispatch-calendar",
-            "jobs/dispatch-calendar",
-            "jobs/job-logs"
-          ]
-        },
-        {
-          "group": "Integrations",
-          "pages": [
-            "integrations/gmail",
-            "integrations/google-calendar"
-          ]
-        },
-        {
-          "group": "Inventory Management",
-          "pages": [
-            "inventory/inventory-management",
-            "inventory/Vendor-management-and-purchase-orders"
-          ]
-        },
-        {
-          "group": "Email Management",
-          "pages": [
-            "email-inbox"
-          ]
-        },
-         {
-          "group": "Analytics",
-          "pages": [
-            "analytics/analytics"
-          ]
-        },
-        {
-          "group": "Workflow-Builder",
-          "pages": [
-            "Workflow-Builder/Workflow-builder"
-          ]
-        },
-         {
-          "group": "Grow",
-              "group": "Estimates",
-              "pages": [
-                "grow/estimates/creating-and-managing-estimates",
-                "grow/estimates/add-contracts-terms-attachments-notes",
-                "grow/estimates/add-and-manage-signatures",
-                "grow/estimates/previewing-editing-managing",
-                "grow/estimates/sending-tracking-and-follow-ups",
-                "grow/estimates/customisable-views",
-                "grow/estimates/importance"
-              ]
-            },
-         {
-          "group": "Grow",
-              "group": "Invoices",
-              "pages": [
-                "grow/invoices/creating-and-managing-invoices",
-                "grow/invoices/add-contracts-terms-attachments-notes",
-                "grow/invoices/add-and-manage-signatures",
-                "grow/invoices/managing-and-sending-invoices",
-                "grow/invoices/customisable-views",
-                "grow/invoices/importance"
-              ]
-            },
-         {
-          "group": "Grow",
-             "group": "Payments",
-              "pages": [
-                "grow/payments/stripe-integration"
-              ]
-            },          
-         {
-          "group": "tax-and-contracts",
-          "pages": [
-            "tax-and-contracts/tax",
-            "tax-and-contracts/contracts"
-             ]
-           },
-         {
-          "group": "Add-ons",
-          "pages": [
-            "add-ons/add-ons",
-            "add-ons/job-forms",
-            "add-ons/online-booking",
-            "add-ons/service-areas"
-             ]
-           },
-         {
-          "group": "Others",
-          "pages": [
-            "others/how-to-change-your-password",
-            "others/my-views"
-          ]
+          "anchor": "Blog",
+          "href": "https://fieldcamp.ai/blog/",
+          "icon": "newspaper"
         }
       ]
     }
-  ],
-  "global": {
-    "anchors": [
-      {
-        "anchor": "FieldCamp App",
-        "href": "https://app.fieldcamp.ai",
-        "icon": "grid-horizontal"
-      },
-      {
-        "anchor": "Blog",
-        "href": "https://fieldcamp.ai/blog/",
-        "icon": "newspaper"
-      }
-    ]
-  }
-},
+  },
+
   "logo": {
     "light": "/logo/fieldcamp_black_logo.svg",
     "dark": "/logo/fieldcamp_white_logo.svg"
   },
+
   "navbar": {
     "links": [
       {
@@ -199,6 +208,7 @@
       "href": "https://app.fieldcamp.ai"
     }
   },
+
   "footer": {
     "socials": {
       "linkedin": "https://www.linkedin.com/company/fieldcamp/",
@@ -206,7 +216,6 @@
       "x": "https://x.com/FieldCamp_ai",
       "facebook": "https://www.facebook.com/getfieldcamp",
       "youtube": "https://www.youtube.com/@fieldcamp_ai"
-      
     }
   }
 }
