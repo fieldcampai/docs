@@ -74,8 +74,7 @@
             "jobs/route-optimization",
             "jobs/dispatch-calendar",
             "jobs/dispatch-calendar",
-            "jobs/job-logs",
-            "jobs/Job-forms"
+            "jobs/job-logs"
           ]
         },
         {
@@ -110,10 +109,57 @@
             "Workflow-Builder/Workflow-builder"
           ]
         },
-        {
+         {
+          "group": "Grow",
+              "group": "Estimates",
+              "pages": [
+                "grow/estimates/creating-and-managing-estimates",
+                "grow/estimates/add-contracts-terms-attachments-notes",
+                "grow/estimates/add-and-manage-signatures",
+                "grow/estimates/previewing-editing-managing",
+                "grow/estimates/sending-tracking-and-follow-ups",
+                "grow/estimates/customisable-views",
+                "grow/estimates/importance"
+              ]
+            },
+         {
+          "group": "Grow",
+              "group": "Invoices",
+              "pages": [
+                "grow/invoices/creating-and-managing-invoices",
+                "grow/invoices/add-contracts-terms-attachments-notes",
+                "grow/invoices/add-and-manage-signatures",
+                "grow/invoices/managing-and-sending-invoices",
+                "grow/invoices/customisable-views",
+                "grow/invoices/importance"
+              ]
+            },
+         {
+          "group": "Grow",
+             "group": "Payments",
+              "pages": [
+                "grow/payments/stripe-integration"
+              ]
+            },          
+         {
+          "group": "tax-and-contracts",
+          "pages": [
+            "tax-and-contracts/tax",
+            "tax-and-contracts/contracts"
+             ]
+           },
+         {
+          "group": "Add-ons",
+          "pages": [
+            "add-ons/add-ons",
+            "add-ons/job-forms",
+            "add-ons/online-booking",
+            "add-ons/service-areas"
+             ]
+           },
+         {
           "group": "Others",
           "pages": [
-            "others/add-ons",
             "others/how-to-change-your-password",
             "others/my-views"
           ]
