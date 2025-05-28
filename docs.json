@@ -36,7 +36,9 @@
             "pages": [
               "crm/client-commands",
               "crm/managing-clients",
-              "crm/pipeline-management",
+              "crm/pipeline-management"
+            ],
+            "groups": [
               {
                 "group": "Client Table",
                 "pages": [
@@ -111,7 +113,7 @@
           },
           {
             "group": "Grow",
-            "pages": [
+            "groups": [
               {
                 "group": "Estimates",
                 "pages": [
@@ -153,7 +155,7 @@
           {
             "group": "Add-ons",
             "pages": [
-              "add-ons/overview",
+              "add-ons/add-ons",
               "add-ons/job-forms",
               "add-ons/online-booking",
               "add-ons/service-areas"
