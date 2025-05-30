@@ -1,5 +1,5 @@
 {
-  "$schema": "https://docs.fieldcamp.ai/docs.json",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "FieldCamp Help Centre",
   "colors": {
@@ -36,9 +36,7 @@
             "pages": [
               "crm/client-commands",
               "crm/managing-clients",
-              "crm/pipeline-management"
-            ],
-            "groups": [
+              "crm/pipeline-management",
               {
                 "group": "Client Table",
                 "pages": [
@@ -113,7 +111,7 @@
           },
           {
             "group": "Grow",
-            "groups": [
+            "pages": [
               {
                 "group": "Estimates",
                 "pages": [
