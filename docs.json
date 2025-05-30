@@ -177,11 +177,6 @@
           "icon": "grid-horizontal"
         },
         {
-          "anchor": "Discord Community",
-          "href": "https://discord.gg/CDaesPSNhf",
-          "icon": "discord"
-        },
-        {
           "anchor": "Blog",
           "href": "https://fieldcamp.ai/blog/",
           "icon": "newspaper"
