@@ -138,7 +138,7 @@
               {
                 "group": "Payments",
                 "pages": [
-                  "grow/payments/Stripe-integration"
+                  "Grow/Payments/Stripe-integration"
                 ]
               }
             ]
@@ -146,17 +146,17 @@
           {
             "group": "Tax & Contracts",
             "pages": [
-              "tax-and-contracts/Tax",
-              "tax-and-contracts/Contracts"
+              "Tax-and-Contracts/Tax",
+              "Tax-and-Contracts/Contracts"
             ]
           },
           {
             "group": "Add-ons",
             "pages": [
-              "add-ons/add-ons",
-              "add-ons/Job-forms",
-              "add-ons/online-booking",
-              "add-ons/service-areas"
+              "Add-ons/add-ons",
+              "Add-ons/Job-forms",
+              "Add-ons/online-booking",
+              "Add-ons/service-areas"
             ]
           },
           {
