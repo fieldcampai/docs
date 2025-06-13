@@ -94,7 +94,7 @@
           {
             "group": "Email Management",
             "pages": [
-              "email/email-inbox"
+              "email-inbox"
             ]
           },
           {
