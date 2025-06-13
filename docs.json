@@ -106,7 +106,7 @@
           {
             "group": "Workflow Builder",
             "pages": [
-              "workflow-builder/Workflow-builder"
+              "Workflow-Builder/Workflow-builder"
             ]
           },
           {
@@ -115,24 +115,24 @@
               {
                 "group": "Estimates",
                 "pages": [
-                  "grow/estimates/creating-and-managing-estimates",
-                  "grow/estimates/Add-contracts-terms-attachments-notes",
-                  "grow/estimates/add-and-manage-signatures",
-                  "grow/estimates/Previewing-editing-managing",
-                  "grow/estimates/Sending-tracking-and-follow-ups",
-                  "grow/estimates/Customisable-views",
-                  "grow/estimates/Importance"
+                  "Grow/Estimates/creating-and-managing-estimates",
+                  "Grow/Estimates/Add-contracts-terms-attachments-notes",
+                  "Grow/Estimates/add-and-manage-signatures",
+                  "Grow/Estimates/Previewing-editing-managing",
+                  "Grow/Estimates/Sending-tracking-and-follow-ups",
+                  "Grow/Estimates/Customisable-views",
+                  "Grow/Estimates/Importance"
                 ]
               },
               {
                 "group": "Invoices",
                 "pages": [
-                  "grow/invoices/creating-and-managing-invoices",
-                  "grow/invoices/Add-contracts-terms-attachments-notes",
-                  "grow/invoices/add-and-manage-signatures",
-                  "grow/invoices/managing-and-sending-invoices",
-                  "grow/invoices/Customisable-views",
-                  "grow/invoices/Importance"
+                  "Grow/Invoices/creating-and-managing-invoices",
+                  "Grow/Invoices/Add-contracts-terms-attachments-notes",
+                  "Grow/Invoices/add-and-manage-signatures",
+                  "Grow/Invoices/managing-and-sending-invoices",
+                  "Grow/Invoices/Customisable-views",
+                  "Grow/Invoices/Importance"
                 ]
               },
               {
