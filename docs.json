@@ -88,7 +88,7 @@
             "group": "Inventory Management",
             "pages": [
               "inventory/inventory-management",
-              "inventory/vendor-management-and-purchase-orders"
+              "inventory/Vendor-management-and-purchase-orders"
             ]
           },
           {
