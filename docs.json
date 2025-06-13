@@ -106,7 +106,7 @@
           {
             "group": "Workflow Builder",
             "pages": [
-              "workflow-builder/workflow-builder"
+              "workflow-builder/Workflow-builder"
             ]
           },
           {
@@ -116,29 +116,29 @@
                 "group": "Estimates",
                 "pages": [
                   "grow/estimates/creating-and-managing-estimates",
-                  "grow/estimates/add-contracts-terms-attachments-notes",
+                  "grow/estimates/Add-contracts-terms-attachments-notes",
                   "grow/estimates/add-and-manage-signatures",
-                  "grow/estimates/previewing-editing-managing",
-                  "grow/estimates/sending-tracking-and-follow-ups",
-                  "grow/estimates/customisable-views",
-                  "grow/estimates/importance"
+                  "grow/estimates/Previewing-editing-managing",
+                  "grow/estimates/Sending-tracking-and-follow-ups",
+                  "grow/estimates/Customisable-views",
+                  "grow/estimates/Importance"
                 ]
               },
               {
                 "group": "Invoices",
                 "pages": [
                   "grow/invoices/creating-and-managing-invoices",
-                  "grow/invoices/add-contracts-terms-attachments-notes",
+                  "grow/invoices/Add-contracts-terms-attachments-notes",
                   "grow/invoices/add-and-manage-signatures",
                   "grow/invoices/managing-and-sending-invoices",
-                  "grow/invoices/customisable-views",
-                  "grow/invoices/importance"
+                  "grow/invoices/Customisable-views",
+                  "grow/invoices/Importance"
                 ]
               },
               {
                 "group": "Payments",
                 "pages": [
-                  "grow/payments/stripe-integration"
+                  "grow/payments/Stripe-integration"
                 ]
               }
             ]
@@ -146,15 +146,15 @@
           {
             "group": "Tax & Contracts",
             "pages": [
-              "tax-and-contracts/tax",
-              "tax-and-contracts/contracts"
+              "tax-and-contracts/Tax",
+              "tax-and-contracts/Contracts"
             ]
           },
           {
             "group": "Add-ons",
             "pages": [
               "add-ons/add-ons",
-              "add-ons/job-forms",
+              "add-ons/Job-forms",
               "add-ons/online-booking",
               "add-ons/service-areas"
             ]
