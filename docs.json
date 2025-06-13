@@ -212,5 +212,10 @@
       "facebook": "https://www.facebook.com/getfieldcamp",
       "youtube": "https://www.youtube.com/@fieldcamp_ai"
     }
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-0WWQ428JCE"
+    }
   }
 }
