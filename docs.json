@@ -8,7 +8,9 @@
     "dark": "#1C1C1C"
   },
   "favicon": "/logo/fieldcamp-favicon.png",
-
+  "seo": {
+    "indexing": "all"
+},
   "navigation": {
     "tabs": [
       {
